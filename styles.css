@@ -1,0 +1,82 @@
+body {
+    background-color: #f0f0c8;
+}
+
+#bar {
+    background-color: #c85048;
+    border: solid #a82028 0px;
+    margin: 0;
+    height: 128px;
+    box-shadow: 5px 10px 15px #a82028;
+    border-radius: 5px;
+}
+
+#circle {
+    border-radius: 50%;
+    height: 180px;
+    width: 210px;
+    background-color: #c85048;
+    display: inline-block;
+    margin-left: 41%;
+}
+
+#focus-box {
+    margin: auto;
+    text-align: center;
+    width: 30%;
+    margin-top: 5%;
+    background-color: #f0f0f8;
+    border: 3px solid black;
+    padding: 20px;
+    font: roboto;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+
+#focus-box:hover {
+    box-shadow: 5px 5px 5px #a8b8c8;
+}
+
+button {
+    cursor: pointer;
+    color: #f0f0f8;
+    background-color: #a82028;
+    border-radius: 7px;
+    border: none;
+    padding: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+    transition-duration: 0.2s;
+}
+
+button:hover {
+    background-color: #c85048;
+    color: #a8b8c8;
+    box-shadow: 0 8px 10px 0 darkgray, 0 12px 36px 0 gray;
+}
+
+#pokedex {
+    background-color: #f0f0c8;
+    border: 3px solid black;
+    margin: auto;
+    margin-top: 2%;
+    border-radius: 25px;
+    width: 30%;
+    background-color: #f0f0f8;
+    text-align: center;
+    font: roboto;
+    font-weight: bolder;
+}
+
+.invisible {
+    display: none;
+}
+
+#pokedex:hover {
+    box-shadow: 5px 5px 5px #a8b8c8;
+}
+
+img {
+    height: 128px;
+    width: 128px;
+}
